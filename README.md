@@ -1,16 +1,12 @@
-# React + Vite
+Mini Market loyihasi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ism: Abduraxmonov Abdurashid
 
-Currently, two official plugins are available:
+- Vazifani bajarishga umumiy 1 kun vaqt sarfladim. Imkon boricha berilgan barcha talablarga javob beradigan proyektni qilishga harakat qildim. Aslida bu loyihani juda ham sifatliroq va ko'p funksiyali qilish ko'proq vaqt talab etadi.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Asosan qiyin bo'lgan joylari js orqali react ni ulash bo'ldi avval man bunday qilib ko'rmagan edim, ya'ni avvallari man faqat js yoki bo'lmasa faqatgina react da loyiha qilganman, lekin ikkisini bitta loyihada birga qilib ko'rmagan edim. Bu men uchun yangilik bo'ldi. Shuningdek, ba'zi joylarda conflict lar yuzaga keldi ushbu conflictlarni bartaraf etishda AI dan foydalandim. 
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+screenshots:
+![Home](./screenshots/home.png)
+![Cart](./screenshots/cart.png)

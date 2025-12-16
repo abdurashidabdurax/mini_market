@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Market</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/src/products.js" defer></script>
+    <script type="module" src="/src/main.jsx"></script>
+  </head>
+  <body>
+    <div class="overlay" id="overlay"></div>
+
+    <header class="header">
+      <div class="logo">
+        <h1>Mini<span>Market</span></h1>
+      </div>
+      <div class="search-container">
+        <input type="text" class="search-input" id="search" placeholder="Mahsulot qidirish..." oninput="searchProduct()" />
+        <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+      </div>
+      <button class="cart-btn" id="cartBtn">
+        <i class="fa-solid fa-cart-arrow-down"></i>
+        <span class="cart-badge-header" style="display: none;">0</span>
+      </button>
+    </header>
+
+    <div class="main">
+      <div class="products-grid" id="productsGrid"></div>
+    </div>
+
+    <div id="cartSidebarRoot"></div>
+  </body>
+</html>
